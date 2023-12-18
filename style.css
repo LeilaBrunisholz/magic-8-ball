@@ -2,11 +2,22 @@ body{
     background-color: rgb(236, 255, 167);
 }
 
-.shakes{
-    background-color:red;
-}
+
 
 .display-4{
+    color:rgb(39, 90, 255);
+    font-family: 'Gloria Hallelujah', cursive;
+}
+
+.{
+
+}
+
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+    margin-top: 0;
+    margin-bottom: .5rem;
+    font-weight: 500;
+    line-height: 1.2;
     color:rgb(39, 90, 255);
     font-family: 'Gloria Hallelujah', cursive;
 }
