@@ -16,42 +16,42 @@ let answer, image, color;
 switch (randomNumber) {
     case 0:
         answer = "Yes";
-        image = "yes-image.jpg" //change this!!;
+        image = "yes.jpg"
         color = "text-success";
         break;
     case 1:
         answer = "No";
-        image = "no-image.jpg" //change this!!;
+        image = "no.jpg" //change this!!;
         color = "text-danger";
         break;
     case 2:
         answer = "Ask again later";
-        image = "later-image.jpg" //change this!!;
+        image = "later.jpg" //change this!!;
         color = "text-secondary";
         break;
     case 3:
         answer = "Maybe";
-        image = "maybe-image.jpg";//change this!!;
+        image = "maybe.jpg";//change this!!;
         color = "text-warning";
         break;
     case 4:
         answer = "Cannot predict now";
-        image = "cannot-predict-image.jpg";//change this!!;
+        image = "predict no.jpg";//change this!!;
         color = "text-muted";
         break;
     case 5:
         answer = "Don't count on it";
-        image = "dont-count-on-it-image.jpg";//change this!!;
+        image = "dont count on it.jpg";//change this!!;
         color = "text-danger";
         break;
     case 6:
         answer = "Most likely";
-        image = "most-likely-image.jpg";//change this!!;
+        image = "likely.webp";//change this!!;
         color = "text-success";
         break;
     case 7:
         answer = "Outlook not so good";
-        image = "outlook-not-good-image.jpg";//change this!!;
+        image = "not good.jpg";//change this!!;
         color = "text-danger";
         break;
     default:
